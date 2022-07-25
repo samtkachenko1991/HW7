@@ -1,0 +1,256 @@
+.main {
+  margin: 10px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.column-pictures {
+  display: flex;
+  height: 100%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.pictures-carousel img {
+  width: 48px;
+  margin-top: 4px;
+}
+.pictures-carousel img:hover {
+  border: 1px solid rgb(236, 114, 54);
+}
+
+.keyboard {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 10px;
+}
+.keyboard .icon_keyboard {
+  display: flex;
+  justify-content: end;
+}
+.keyboard .icon_keyboard img {
+  width: 60px;
+}
+.keyboard .qwerty1 img {
+  width: 650px;
+}
+.keyboard p {
+  text-align: center;
+}
+
+.column-info {
+  display: flex;
+  padding: 15px 0;
+  padding-left: 15px;
+}
+
+.h1-block {
+  flex-basis: 67%;
+}
+.h1-block h1 {
+  font-size: 23px;
+  line-height: 30px;
+}
+.h1-block a {
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(33, 87, 131);
+}
+.h1-block a:hover {
+  color: rgb(175, 18, 18);
+  text-decoration: underline;
+}
+.h1-block section {
+  padding-top: 8px;
+}
+.h1-block .stars {
+  display: flex;
+  padding-top: 8px;
+}
+.h1-block .amazon-choice {
+  display: flex;
+  padding-top: 8px;
+}
+.h1-block .icon-hour-glass {
+  color: rgb(44, 134, 78);
+}
+.h1-block .icon-hour-glass:before {
+  content: "\e979";
+}
+.h1-block .green-span {
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgb(227, 219, 219);
+}
+
+.buttons-main {
+  padding-top: 10px;
+}
+.buttons-main button {
+  background-color: transparent;
+  padding: 7px 10px;
+  font-weight: 500;
+  outline: none;
+  cursor: pointer;
+  border: 1px dashed grey;
+  color: grey;
+}
+.buttons-main button:hover {
+  color: black;
+}
+.buttons-main button:active {
+  background-color: rgb(244, 244, 244);
+  font-weight: bold;
+  border: 1px solid rgb(255, 85, 0);
+}
+.buttons-main .bold {
+  font-weight: bold;
+}
+.buttons-main .bt-2 {
+  background-color: transparent;
+  color: black;
+  font-weight: 500px;
+  border: 1px solid gray;
+}
+.buttons-main .bt-2:hover {
+  background-color: rgb(239, 234, 234);
+}
+.buttons-main section {
+  margin-bottom: 25px;
+}
+
+.table-tag {
+  border-bottom: 1px solid rgb(227, 219, 219);
+  padding: 15px 0;
+}
+.table-tag td {
+  padding: 10px 0;
+}
+.table-tag .bold {
+  font-weight: bold;
+}
+
+.about h2 {
+  font-size: 20px;
+  padding: 15px 0;
+}
+.about li {
+  list-style: disc;
+  font-size: 14px;
+  line-height: 20px;
+}
+.about section {
+  padding-top: 25px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(227, 219, 219);
+}
+
+.info-main h3 {
+  font-size: 21px;
+  padding: 10px 0;
+}
+.info-main .info {
+  display: flex;
+}
+.info-main .info .info-pic {
+  height: 100px;
+}
+.info-main .info .info-pic img {
+  width: 75px;
+  padding-top: 10px;
+  padding-right: 10px;
+}
+.info-main .p-red {
+  color: rgb(182, 14, 14);
+  padding: 4px 0;
+}
+.info-main .p-gray {
+  color: gray;
+  padding: 4px 0;
+}
+.info-main .p-bottom {
+  font-size: 16px;
+  padding-top: 20px;
+}
+.info-main .p-bottom span {
+  font-weight: bold;
+}
+
+.delivery {
+  display: flex;
+  flex-direction: column;
+  margin-left: 70px;
+}
+.delivery .delivery-form {
+  margin-left: 18px;
+  padding: 15px 20px;
+  width: 250px;
+  height: 160px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+.delivery .delivery-form a {
+  text-decoration: none;
+  color: rgb(33, 87, 131);
+  font-size: 13px;
+  text-align: left;
+}
+.delivery .delivery-form a:hover {
+  color: rgb(175, 18, 18);
+}
+.delivery .delivery-form .bt-top {
+  margin: 15px 0;
+  width: 205px;
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid rgb(209, 206, 206);
+}
+.delivery .delivery-form .bt-top:hover {
+  background-color: rgb(229, 229, 229);
+}
+.delivery .delivery-form .bt-top:active {
+  background-color: rgb(163, 192, 225);
+  border: 1px solid rgb(42, 129, 196);
+}
+.delivery .delivery-form .for-border {
+  border-bottom: 1px solid rgb(227, 219, 219);
+}
+.delivery .delivery-form .bt-bottom {
+  margin: 15px 0;
+  width: 205px;
+  padding: 7px 15px;
+  background-color: rgb(203, 200, 200);
+  border-radius: 4px;
+  border: 1px solid black;
+  text-align: left;
+}
+.delivery .delivery-form .bt-bottom:active {
+  border: 1px solid rgb(218, 126, 51);
+}
+.delivery .baner {
+  margin-top: 40px;
+  text-align: center;
+}
+.delivery .baner p {
+  font-size: 13px;
+  padding: 5px 0;
+}
+.delivery .baner button {
+  margin-bottom: 15px;
+  width: 130px;
+  padding: 7px 15px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid rgb(209, 206, 206);
+}
+.delivery .baner button:hover {
+  background-color: rgb(229, 229, 229);
+}
+.delivery .baner button:active {
+  background-color: rgb(163, 192, 225);
+  border: 1px solid rgb(42, 129, 196);
+}/*# sourceMappingURL=style.css.map */
